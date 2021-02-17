@@ -1,0 +1,20 @@
+{
+  "name": "fit-bot",
+  "version": "0.0.0",
+  "description": "A bot used for a hit timer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env NODE_ENV=development node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-tts": "^1.0.3",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "opusscript": "^0.0.7"
+  }
+}
